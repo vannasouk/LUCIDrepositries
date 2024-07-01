@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 50
+  controlID: 149
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 699
-    height: 315
+    height: 355
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
@@ -824,9 +824,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.12782678, y: 0, z: -0.12782677}
+    m_Target: {x: 2.6098669, y: 13.430405, z: -12.566651}
     speed: 2
-    m_Value: {x: 0.12782678, y: 0, z: -0.12782677}
+    m_Value: {x: 2.6098647, y: 13.430407, z: -12.566652}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -872,9 +872,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.2771081, y: -0.5270246, z: 0.18690796, w: -0.78136086}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: -0.27593532, y: -0.5273035, z: 0.1861169, w: -0.78177434}
   m_Size:
     m_Target: 17.623556
     speed: 2
@@ -1040,9 +1040,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6cae0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: ded5feff00acffff
+      m_SelectedIDs: 08d4feff
+      m_LastClickedID: -76792
+      m_ExpandedIDs: 84d0feff4ad1feff50d5feff00acffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1122,14 +1122,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\brismedia\Documents\STUDIO 4 GIT REPOSITRIES\LUCIDrepositries
+  m_LastProjectPath: C:\Users\brismedia\Documents\STUDIO 4 GIT RESPOSITRY\LUCIDrepositries
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a0060000
     m_LastClickedID: 1696
-    m_ExpandedIDs: 000000000806000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000000806000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
