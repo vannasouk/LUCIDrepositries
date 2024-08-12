@@ -1,9 +1,12 @@
 {
   "dependencies": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> Stashed changes
     "com.unity.ai.navigation": {
       "version": "1.1.5",
       "depth": 1,
@@ -13,6 +16,9 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "com.unity.burst": {
       "version": "1.8.12",
@@ -78,9 +84,12 @@
       "url": "https://packages.unity.com"
     },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> Stashed changes
     "com.unity.inputsystem": {
       "version": "1.7.0",
       "depth": 1,
@@ -90,6 +99,9 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     "com.unity.mathematics": {
       "version": "1.2.6",
