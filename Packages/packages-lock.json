@@ -1,7 +1,19 @@
 {
   "dependencies": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
+=======
+    "com.unity.ai.navigation": {
+      "version": "1.1.5",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+>>>>>>> Stashed changes
     "com.unity.burst": {
       "version": "1.8.12",
       "depth": 1,
@@ -9,6 +21,15 @@
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cinemachine": {
+      "version": "2.9.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.31"
       },
       "url": "https://packages.unity.com"
     },
@@ -56,8 +77,20 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
+=======
+    "com.unity.inputsystem": {
+      "version": "1.7.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+>>>>>>> Stashed changes
     "com.unity.mathematics": {
       "version": "1.2.6",
       "depth": 1,
@@ -92,8 +125,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "2.1.6",
-      "depth": 0,
+      "version": "3.0.6",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0"
@@ -127,6 +160,17 @@
       "source": "embedded",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.0.2"
+      }
+    },
+    "com.vrchat.worlds": {
+      "version": "file:com.vrchat.worlds",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.cinemachine": "2.9.7",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.unity.inputsystem": "1.2.0",
+        "com.unity.ai.navigation": "1.1.5"
       }
     },
     "com.unity.modules.ai": {
