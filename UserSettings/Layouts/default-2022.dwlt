@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 5716
+  controlID: 15
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 5717
+  controlID: 16
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -593,7 +593,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Cinemachine Tool Settings
-      index: 8
+      index: 9
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -606,7 +606,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/TrailRenderer
-      index: 9
+      index: 8
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -634,9 +634,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 16.764221, y: -7.2829337, z: 5.3687005}
+    m_Target: {x: 29.859158, y: 8.613305, z: -35.95382}
     speed: 2
-    m_Value: {x: 16.764221, y: -7.2829337, z: 5.3687005}
+    m_Value: {x: 29.859156, y: 8.613305, z: -35.953815}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -682,13 +682,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.04120582, y: -0.957154, z: 0.22998463, w: 0.17149271}
+    m_Target: {x: -0.03415689, y: -0.963602, z: 0.15037268, w: -0.2187294}
     speed: 2
-    m_Value: {x: 0.041547757, y: -0.9568266, z: 0.22990598, w: 0.17291577}
+    m_Value: {x: -0.03392875, y: -0.9638567, z: 0.15041247, w: -0.21726747}
   m_Size:
-    m_Target: 42.71083
+    m_Target: 42.600903
     speed: 2
-    m_Value: 42.463814
+    m_Value: 42.600903
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -850,9 +850,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6a03ffff
-      m_LastClickedID: -64662
-      m_ExpandedIDs: 6e03ffff9003ffffe604ffffea04ffffee04fffff004ffff4c08ffffae08ffffb21effffd02cffff322dffffa445ffffd453ffffd853ffffdc53ffff685dffff8662ffffb464ffff467affff547effff4492fffff495ffff589cfffff8ccffff1ccdffff38cdffffb6d8ffffbad8ffffa8e6ffffece6ffff24e7ffffbeeeffff22efffff5aefffffa8f9ffffacf9ffffbef9ffffcafaffffcefaffffd2faffffd4faffff72f00000
+      m_SelectedIDs: 1e70feff
+      m_LastClickedID: -102370
+      m_ExpandedIDs: 466dfeff4a6dfeff4e6dfeffc86efeff2a7efeff927efeff0096feffb074ffffd6d40000d0d50000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -931,14 +931,14 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jongy\OneDrive\Documents\Studio III\LucidProjectLocal\New\LUCIDrepositries
+  m_LastProjectPath: C:\Users\jongy\Documents\Studio III\LucidProjectLocal\New\LUCIDrepositries\LUCIDrepositries
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a45c0000
     m_LastClickedID: 23716
-    m_ExpandedIDs: ffffffff000000000c5d0000885d000066760000687c00009e7c0000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -966,7 +966,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000000c5d000066760000
+    m_ExpandedIDs: ffffffffea4000008e41000022420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
