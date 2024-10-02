@@ -1,0 +1,1 @@
+This Shader is a early version of the rewrite of [Moriohs Toon Shader](https://gitlab.com/xMorioh/moriohs-toon-shader)

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 564f6399dae973e43908720b27a34877
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _NoiseTexSSR: {fileID: 2800000, guid: 38e7d156069d4b345842d760866b8411, type: 3}
+  - _Normal: {fileID: 2800000, guid: 14b90e542747f3148859c2bac2899ab0, type: 3}
+  - _SecondaryNormal: {fileID: 2800000, guid: 49d4ba75e9b9a624ea0a6dccbafe033d, type: 3}
+  - _Normals_3D: {fileID: 11700000, guid: 04486b2b3df04f24482407db6cc193d1, type: 2}
+  - _SeaFoam: {fileID: 2800000, guid: 04ba2d0dd3fadef41a6e28103cb0e150, type: 3}
+  nonModifiableTextures:
+  - _NoiseTexSSR: {fileID: 2800000, guid: 38e7d156069d4b345842d760866b8411, type: 3}
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_NewUnlitShader
+  m_Shader: {fileID: 4800000, guid: 264367f222f0a6043a755cab3314b806, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    CanUseSpriteAtlas: true
+    FORCENOSHADOWCASTING: False
+    IGNOREPROJECTOR: False
+    OptimizedShaderFolder: b3d49ad9e2d9802499443ea1d0a7b2b4
+    OriginalShader: Moriohs Shader
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BakedCubemap:
+        m_Texture: {fileID: 8900000, guid: b0b93d3d9f4d38b46be773201bd42715, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: 599ef7489cce1de41b826f60ae87bb75, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _DissolvePattern:
+        m_Texture: {fileID: 2800000, guid: cf6c1f21161d44548a43bcd566b5bbd0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: cf6c1f21161d44548a43bcd566b5bbd0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightTexture0:
+        m_Texture: {fileID: 2800000, guid: 8f22fa37ffe912d4aac16a1eaca69338, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lol:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cccc116a6334dc1428687697c5a11d58, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapA4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapA4sk:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapB3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapG2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatcapR1:
+        m_Texture: {fileID: 2800000, guid: ea2736efbc873954cac5a26a18814520, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 06d8cbe587a3d2c4c967de17cac6c502, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMapMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: cf6c1f21161d44548a43bcd566b5bbd0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSThickenessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Version: 0
+    - _AlphaToMask: 0
+    - _AnisoF0Reflectance: 0
+    - _AnisoFlickerFix: 0
+    - _Anisotropy: 0.75
+    - _BRDFReflInheritAniso: 0
+    - _BlendOp: 0
+    - _BlendOpAlpha: 0
+    - _BumpMapUVSwitch: 0
+    - _BumpScale: 0
+    - _CanUseSpriteAtlas: 1
+    - _ClearCoatGSAAThreshold: 0.1
+    - _ClearCoatGSAAVariance: 1
+    - _ColorMask: 15
+    - _Cull: 2
+    - _Cutoff: 0
+    - _DetailNormalMapScale: 0
+    - _DetailNormalMapUVSwitch: 0
+    - _DisableBatching: 0
+    - _DissolveModifier: 1
+    - _DissolvePatternUVSwitch: 0
+    - _DstBlend: 10
+    - _DstBlendAlpha: 10
+    - _EmissionTint: 0
+    - _EmissionUVSwitch: 0
+    - _EnableGSAA: 1
+    - _ForceNoShadowCasting: 0
+    - _ForgotToLockMaterial: 1
+    - _GGXAnisoTopologyFix: 0
+    - _GIFlags: 4
+    - _GSAAThreshold: 0.1
+    - _GSAAVariance: 0.15
+    - _Glossiness: 0.802
+    - _GlossyReflections: 1
+    - _IgnoreProjector: 0
+    - _KeywordCutout: 0
+    - _KeywordFade: 0
+    - _KeywordTransparent: 1
+    - _LightModes: 0
+    - _MainTexUV: 0
+    - _MainTexUVSwitch: 0
+    - _MatcapA4Blending: 0
+    - _MatcapA4Intensity: 1
+    - _MatcapA4Mode: 1
+    - _MatcapA4Tint: 1
+    - _MatcapA4smoothness: 1
+    - _MatcapB3Blending: 0
+    - _MatcapB3Intensity: 1
+    - _MatcapB3Mode: 1
+    - _MatcapB3Tint: 1
+    - _MatcapB3smoothness: 1
+    - _MatcapG2Blending: 0
+    - _MatcapG2Intensity: 1
+    - _MatcapG2Mode: 1
+    - _MatcapG2Tint: 1
+    - _MatcapG2smoothness: 1
+    - _MatcapMask: 0
+    - _MatcapMaskUVSwitch: 0
+    - _MatcapR1Blending: 1
+    - _MatcapR1Intensity: 1
+    - _MatcapR1Mode: 0
+    - _MatcapR1Tint: 1
+    - _MatcapR1smoothness: 1
+    - _MaterializeA: -1
+    - _MaterializeB: -1
+    - _MaterializeColorLayerA: 100
+    - _MaterializeColorLayerB: 100
+    - _MaterializeColorLayerG: 100
+    - _MaterializeColorLayerR: 100
+    - _MaterializeG: -1
+    - _MaterializeLayerModeA: 0
+    - _MaterializeLayerModeB: 0
+    - _MaterializeLayerModeG: 0
+    - _MaterializeLayerModeR: 0
+    - _MaterializeR: -1
+    - _Metallic: 0.9919999
+    - _MetallicGlossMapUVSwitch: 0
+    - _Mode: 3
+    - _NormalMapMaskUVSwitch: 0
+    - _NormalMapUVSwitch: 0
+    - _OcclusionMapUVSwitch: 0
+    - _OcclusionStrength: 0
+    - _OffsetFactor: 0
+    - _OffsetUnits: 0
+    - _PreviewType: 0
+    - _ReflectionMaskUVSwitch: 0
+    - _SPECULARHIGHLIGHTS: 0
+    - _SSSIntensity: 10
+    - _SSSPower: 1
+    - _SSSScale: 0
+    - _SSSThickenessMapUVSwitch: 0
+    - _SSSTint: 0.975
+    - _ShaderOptimizerEnabled: 0
+    - _ShadowLift: 0
+    - _ShadowOffsets0: 0
+    - _ShadowSqueeze: 1
+    - _SpecularAlbedoTint: 0
+    - _SpecularArea: 0.793
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 1
+    - _SpecularMapUVSwitch: 0
+    - _SpecularSharpness: 0
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilFail: 0
+    - _StencilPass: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _StencilZFail: 0
+    - _SubsurfaceDistortionModifier: 0
+    - _ToggleSpecularAniso: 0
+    - _ZTest: 4
+    - _ZWrite: 0
+    - end_BRDF: 1
+    - end_Blending: 1
+    - end_Dissolve: 0
+    - end_Emission: 0
+    - end_MainSettings: 1
+    - end_Matcap: 0
+    - end_MatcapA4: 0
+    - end_MatcapB3: 0
+    - end_MatcapG2: 0
+    - end_MatcapR1: 0
+    - end_Miscellaneous: 0
+    - end_NormalMaps: 0
+    - end_RenderingOptions: 1
+    - end_SSS: 0
+    - end_Specular: 1
+    - end_SpecularAniso: 0
+    - end_SpecularBRDF: 1
+    - end_SpecularGGX: 0
+    - end_Stencil: 0
+    - end_ToggleSpecularAniso: 1
+    - end_Toon: 0
+    - end_UnityBRDF: 1
+    - group_Blending: 0
+    - group_Emission: 0
+    - group_Main: 0
+    - group_MainSettings: 0
+    - group_Matcap: 0
+    - group_Miscellaneous: 0
+    - group_NormalMaps: 0
+    - group_RenderingOptions: 0
+    - group_SSS: 0
+    - group_Specular: 0
+    - group_SpecularGGX: 0
+    - group_Stencil: 0
+    - group_Toon: 0
+    - group_UnityBRDF: 0
+    - group_toggle_BRDF: 1
+    - group_toggle_Dissolve: 0
+    - group_toggle_MatcapA4: 0
+    - group_toggle_MatcapB3: 0
+    - group_toggle_MatcapG2: 0
+    - group_toggle_MatcapR1: 0
+    - group_toggle_SSS: 0
+    - group_toggle_SSSTransmission: 0
+    - group_toggle_Specular: 0
+    - group_toggle_SpecularAniso: 1
+    - group_toggle_SpecularBRDF: 1
+    - group_toggle_SpecularGGX: 1
+    - group_toggle_ToggleSpecularAniso: 1
+    - something: 0
+    m_Colors:
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MatcapA4Color: {r: 1, g: 1, b: 1, a: 1}
+    - _MatcapB3Color: {r: 1, g: 1, b: 1, a: 1}
+    - _MatcapG2Color: {r: 1, g: 1, b: 1, a: 1}
+    - _MatcapR1Color: {r: 1, g: 1, b: 1, a: 1}
+    - _SSSColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
