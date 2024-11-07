@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Underwater Depth
+  m_Shader: {fileID: 4800000, guid: 16f0e3e4c4757c341a5df8d04d0abc11, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap:
+    OptimizedShaderFolder: 2167762d8a939d1479ba7e26a2e90f84
+    OriginalShader: Moriohs Shaders/Enviroment Shaders/Underwater Depth
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _CausticDepthFade: 4
+    - _CausticEdgeFalloff: 35
+    - _CausticIntensity: 1
+    - _CausticScrollSpeed: -0.07
+    - _CausticsDepthFade: 0.3
+    - _CausticsEdgeFalloff: 25
+    - _CausticsIntensity: 5
+    - _CausticsScale: 2.5
+    - _CausticsScrollSpeed: -0.07
+    - _Depth: 0.955
+    - _DepthMist: 0
+    - _Depthsmoothing: 4.5
+    - _Distance: 10
+    - _Float0: 0
+    - _Float1: 0.2
+    - _Float2: -0.18
+    - _GeneralDepth: 50
+    - _ShaderOptimizerEnabled: 0
+    - _SurfaceDepth: 0.9
+    - _ToggleCaustics: 1
+    - _ToggleDepth: 1
+    - _end: 60
+    - _fresnelbias: -11.87
+    - _fresnelpower: 5
+    - _fresnelscale: 2.04
+    - _start: 68.9
+    m_Colors:
+    - _Color: {r: 0, g: 0.49956232, b: 0.69803923, a: 1}
+    - _ColorSecondary: {r: 0, g: 1, b: 0.8784313, a: 0.25490198}
+    - _DepthColor: {r: 0, g: 0.3480367, b: 0.5943396, a: 1}

@@ -1,0 +1,319 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: 33e48659d4a70e042b36f7623e1b96e8, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    OptimizedShaderFolder: 87c9e4db974ba424ba63ab3f4ef93ef2
+    OriginalShader: Moriohs Shaders/Enviroment Shaders/Water
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BubbleTexture:
+        m_Texture: {fileID: 2800000, guid: d01457b88b1c5174ea4235d140b5fab8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CameraDepthTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticRipples:
+        m_Texture: {fileID: 2800000, guid: 61c0b9c0523734e0e91bc6043c72a490, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Caustics:
+        m_Texture: {fileID: 2800000, guid: 61c0b9c0523734e0e91bc6043c72a490, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _CausticsTex:
+        m_Texture: {fileID: 2800000, guid: 81ea855dffbe787439dec7fb82f48045, type: 3}
+        m_Scale: {x: 3, y: 1.5}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexSSR:
+        m_Texture: {fileID: 2800000, guid: 38e7d156069d4b345842d760866b8411, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 14b90e542747f3148859c2bac2899ab0, type: 3}
+        m_Scale: {x: 0.25, y: 0.25}
+        m_Offset: {x: 0, y: 0}
+    - _Normal3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: b27033af63cbd7c4f9586ae88ec0e764, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals_3D:
+        m_Texture: {fileID: 11700000, guid: 04486b2b3df04f24482407db6cc193d1, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SeaFoam:
+        m_Texture: {fileID: 2800000, guid: 04ba2d0dd3fadef41a6e28103cb0e150, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryNormal:
+        m_Texture: {fileID: 2800000, guid: 49d4ba75e9b9a624ea0a6dccbafe033d, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _SideNormal:
+        m_Texture: {fileID: 2800000, guid: f52f32004b6d9be4e909fae2941804c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: 5d5f4575f58c52f4dbf3d0581eba8a12, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 2800000, guid: 5d5f4575f58c52f4dbf3d0581eba8a12, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal1:
+        m_Texture: {fileID: 2800000, guid: dd2fd2df93418444c8e280f1d34deeb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _3DNormalLod: 0.175
+    - _3DNormalPower: 1
+    - _3DNormalScale: 2
+    - _3DNormals: 1
+    - _AnisoDirUVSwitchAnimated: 0
+    - _AnisoF0Reflectance: 0
+    - _AnisoF0ReflectanceAnimated: 0
+    - _AnisoFlickerFix: 0
+    - _AnisoFlickerFixAnimated: 0
+    - _AnisoScaleAnimated: 0
+    - _AnisoSharpeningAnimated: 0
+    - _Anisotropy: 0.8
+    - _AnisotropyAnimated: 0
+    - _BRDFAmbientOcclusion: 0.35
+    - _BRDFIntensity: 1
+    - _BacksideWaterColor: 0.25
+    - _BlinntoAnisoAnimated: 0
+    - _CausticAngle: 1
+    - _CausticDepth: 0.75
+    - _CausticIntensity: 1.5
+    - _CausticScale: 10
+    - _CausticSpeed: 1
+    - _CausticsAngle: 2.5
+    - _CausticsScale: 2.5
+    - _ChromaticAberration: 0
+    - _CubemapIntensity: 1
+    - _CubemapSpecularToggle: 1
+    - _Cull: 0
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _DEPTHDISTANCE: 50
+    - _Depth: 0.85
+    - _Distort: 0.15
+    - _Distortion1: 0.2
+    - _DistortionSpeed1: 0
+    - _DistortionSpeed3: 0
+    - _EDGELENGTH: 1
+    - _EEEEEEEEEEEEEEE: 0
+    - _EdgeDistance: 1.2
+    - _EdgeFadeSSR: 0.175
+    - _EdgeFoamDistance: 0.5
+    - _EdgeFoamSpeed: 0.06
+    - _EdgeFoamTile: 5
+    - _EdgeLength: 25
+    - _EdgePower: 1
+    - _EdgePower1: 0.3
+    - _EdgeWaveFrequency: 1.5
+    - _EdgeWaveOffset: 0
+    - _EdgeWaveScale: 1
+    - _EdgeWaveSharpness: 0.998
+    - _EdgeWaveSpeed: 0.2
+    - _EdgeWaveVertexOffset: 0
+    - _EnableGSAA: 1
+    - _FACTOR: 37.5
+    - _FACTOR1: 3.2
+    - _FACTOR2: 1
+    - _Float0: 0
+    - _Float1: 0.00015
+    - _Float12: 0.4
+    - _Float13: 0.3
+    - _Float2: 0.2
+    - _Float3: 356.04
+    - _Float4: 1.05
+    - _Float5: 1
+    - _Float8: 0.25
+    - _FoamAlpha: 0.36
+    - _FoamMaskTile: 0.01
+    - _GSAAThreshold: 0.005
+    - _GSAAVariance: 0.05
+    - _GeneralDepth: 10
+    - _GeneralFoamAmount: 1
+    - _GeneralFoamDepthFalloff: 0
+    - _GeneralFoamStrength: 2.49
+    - _GeneralHeight: -0.013
+    - _GerstnerHeight: 25
+    - _GerstnerSpeed: 0.00333
+    - _GerstnerWaves: 1
+    - _GerstnerWavesToggle: 1
+    - _GlossyReflections: 1
+    - _GrabPassDistortion: 0.05
+    - _HOWOFTEN: 1000
+    - _Height: 0
+    - _HeightColorOffset: 20
+    - _HeightColorSmoothness: 37
+    - _HighlightOffsetAnimated: 0
+    - _HighlightSmoothnessAnimated: 0
+    - _LENGTH: 100
+    - _MAX: 410
+    - _MAXDISPLAY: 13.2
+    - _MAXDISPLAYCEMENT: 1
+    - _MIN: 0
+    - _MaxTeliation: 53
+    - _NdL: 1
+    - _NdLfade: 0.75
+    - _NoiseSpeed: 2
+    - _NormalAmount: 0.73
+    - _NormalInfluence: 0.75
+    - _NormalMapDepthinfluence: 0.2
+    - _NormalMapdeformation: 0.05
+    - _NormalPower: 0.5
+    - _NormalPower1: 1
+    - _NormalScale: 0.5
+    - _NormalScale1: 0.3
+    - _NormalScaleAnimated: 1
+    - _NormalScaleSecondary: 0
+    - _NormalScaleSecondaryAnimated: 1
+    - _NormalSharpening: 3
+    - _NormalSpeed: 0.2
+    - _NormalSpeedSecondary: -0.1
+    - _NormalStrength: 3.25
+    - _NormalTile: 0.61
+    - _Normalscrollspeed: 0.17
+    - _Nromalmip: 0
+    - _OptimizerExcludeSpecularHighlights: 0
+    - _REFRACTRRRRRRRRRRRRRR: 0.76
+    - _ReflectionMaskUVSwitch: 0
+    - _ReflectionMaskUVSwitchAnimated: 0
+    - _RefractionAmount: 0.1
+    - _Rotate: 1
+    - _SCALE: 1500
+    - _SHARPENING: 0
+    - _SIZE: 1
+    - _SIZEEEEEEEEEEEE: -0.69
+    - _SPEED: 10
+    - _SSR: 0
+    - _STRENGTH: 35
+    - _ScrollSpeed: -0.07
+    - _SeaFoamTile: 5
+    - _SecondaryScrollSpeed: 0.1
+    - _ShaderOptimizerEnabled: 0
+    - _SideNormalPower: 400
+    - _Smoothness: 1
+    - _SpecShadowMaskPowerAnimated: 0
+    - _SpecShadowMaskVarAnimated: 0
+    - _SpecularColorAnimated: 0
+    - _SpecularHighlights: 1
+    - _SpecularMapUVSwitchAnimated: 0
+    - _SpecularSettingAnimated: 0
+    - _SpecularTintAnimated: 0
+    - _StochasticTiling: 1
+    - _Tesilation: 66
+    - _TessMax: 100
+    - _TessMaxDisp: 1000
+    - _TessMin: 0
+    - _TessPhongStrength: 0
+    - _TessValue: 60
+    - _TesselationEdgeLength: 50
+    - _Tiling: 1
+    - _ToggleEdgeWave: 1
+    - _TranslucencyOffset: 20
+    - _TranslucencySmoothness: 1500
+    - _UVTiling: 1.25
+    - _VertOffsetDistMaskTessMaxxthis: 0.85
+    - _VertexOffset: 1
+    - _VertexOffsetCameraDistMask: 1
+    - _VertexOffsetCameradistMask: 1
+    - _WEQWEWWWWWWWWWW: 0.9
+    - _WaterDepth: 50
+    - _WaveHeightdeformation: 1
+    - _WaveHeightinfluence: 1.333
+    - _WaveHight: 0
+    - _WaveSpeed: 3
+    - _WaveSpeed1: 0.4
+    - _WaveStrength: 0.003
+    - _WaveTessHeightinfluence: 1
+    - _WaveTile: 0.01
+    - _WaveTiling: 1
+    - _Waveheightdeformation: 1
+    - _YES: 0
+    - _ZWrite: 0
+    - __dirty: 0
+    - _depth1: 1
+    - _depthMaskNoRefract: 0
+    - _fresnelbias: 0
+    - _fresnelpower: 1.14
+    - _fresnelscale: 4
+    - _refractww: 0
+    m_Colors:
+    - _AAAAAAAAAAAAAA: {r: 10, g: 0, b: 0, a: 0}
+    - _COORDINATESSSSS: {r: 0, g: -1, b: 0, a: 0}
+    - _CausticsColour: {r: 2, g: 2, b: 2, a: 0}
+    - _Color: {r: 0, g: 0.40595806, b: 0.6886792, a: 1}
+    - _Color0: {r: 0.3962264, g: 0.21586907, b: 0, a: 0}
+    - _Color1: {r: 0.6320754, g: 0.25342646, b: 0.2647815, a: 0}
+    - _ColorSecondary: {r: 0, g: 1, b: 0.8716099, a: 0.5019608}
+    - _Coordinates: {r: 0, g: 0, b: 0, a: 0}
+    - _FoamMaskSpeed: {r: 0.01, g: 0, b: 0, a: 0}
+    - _NoiseVectorXY: {r: 0, g: -1, b: 0, a: 0}
+    - _NormalPanDirection: {r: 0, g: -0.3, b: 0, a: 0}
+    - _NormalPanDirectionSecondary: {r: 0, g: 0.3, b: 0, a: 0}
+    - _NormalPanDirectionsecondary: {r: 0, g: 0, b: 0, a: 0}
+    - _SecondaryVectorXY: {r: 1, g: 0, b: 0, a: 0}
+    - _TessTilingOffset: {r: 1, g: 5, b: 0, a: 0}
+    - _TopColor: {r: 0, g: 0.2655668, b: 0.27999976, a: 0}
+    - _Vector0: {r: 1, g: 1, b: 0, a: 0}
+    - _VectorXY: {r: -1, g: 0, b: 0, a: 0}
+    - _VectorXY1: {r: 0, g: -1, b: 0, a: 0}
+    - _WaterColor: {r: 0, g: 0.5754717, b: 0.560841, a: 1}
+    - _WaveA: {r: 1, g: 0, b: 0.1, a: 0.00125}
+    - _WaveB: {r: 1, g: 0, b: 0, a: 0.00125}
+    - _WaveC: {r: 1, g: 0, b: 0, a: 0.00125}
+    - _WaveDirection: {r: 0, g: -1, b: 0, a: 0}
+    - _WaveScale: {r: 2.27, g: 4.23, b: 0, a: 0}
+    - _WaveTilingOffset: {r: 7.5, g: 1.5, b: 0, a: 0}
+    - _WaveUp: {r: 0, g: 0, b: 0.01, a: 0}
+    - _test: {r: 100, g: 100, b: 100, a: 100}

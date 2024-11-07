@@ -1,0 +1,35 @@
+Stochastic Off = behaves just like Unitys Standard Shader
+
+Stochastic Rotoscope = samples each texture 3 times with a random offset and linear blending. https://redd.it/dhr5g2
+
+Gaussian = transforms the input image's histogram to be gaussian using the inverse cumulative distribution function 
+    and to create a lookup table which maps the values in the gaussian-transformed texture back to the colors in the original image. 
+    Shaders using these textures first blend samples of the gaussian texture using the variance-preserving formula and then obtain the true color from the lookup table. 
+    This produces dramatically better results at the cost of only three (or four if alpha is needed) extra texture samples from the lookup table and a few other operations.. https://github.com/Error-mdl/UnityGaussianTex
+TLDR; GaussianTex looks way better than Rotoscopes or any other Stochastic variant out there.
+
+INFO: For the GaussianTex variant you will need the package from [Error-mdl](https://github.com/Error-mdl/UnityGaussianTex)
+Make sure to read his Readme to understand how to use it !
+This Shader here uses the following Material Property Names:
+
+Metallic Shader variant(for Albedo Texture): _CX, _CY, _CZ, _CsCenter
+
+Specular Shader variant(for Albedo Texture): _CX, _CY, _CZ, _CsCenter
+Specular Shader variant(for Specular Map Texture): _CXSpecular, _CYSpecular, _CZSpecular, _CsCenterSpecular
+
+THOSE ARE THE ONLY TEXTURE WHERE YOU NEED TO USE THE "Copy Colorspace Settings To Material"/"Assign Colorspace values" in Error-mdl's Tex2Gaussian Tool
+
+Now here is how it works:
+You type in the Names for the respective Axis and choose the ColorspaceObject that got created from the texture you converted and put in the Material that you want the Values to be assigned to and hit Assign.
+
+!!!IMPORTANT!!! Keep in mind that Normal Maps should NOT be defined as Normal Maps in the Texture importer for the Gaussian variant ! and make sure the sRGB Button is not ticked and Alpha is set to "Input Texture Alpha" on them since those Normal Maps include an Alpha Channel.
+Also in Errors Converter "Decorrolate Colorspace (Albedo, Specular only)" Button is literally only for those two types of textures.
+
+For better performance on this Shader you would be highly advised to use Kaj's Shader Optimizer, just download the script and put it in an Editor folder above where you put this Shader in: https://github.com/DarthShader/Kaj-Unity-Shaders/blob/master/Shaders/Kaj/Editor/KajShaderOptimizer.cs
+
+
+Questions:
+Why are we not using Height mapping in this shader yet you might ask.
+
+1. Performance. Well, to break it down, i would need to implement a Height map and sample it 4 times just for the general Height mapping part, now when we want to stochastic sample the height map we need to sample 4x3 which is too much for just one single feature in my book. You caaaan do that and i experimented with that, its totally possible but im not going to implement it solely on that fact already but then there is also:
+2. Also we ran out of texture slots and would need to reuse two samplerstates from another texture which i dont quite like.
